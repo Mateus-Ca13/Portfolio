@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* Variables & General ================ */
+
+:root {
+    --font: "Lexend", sans-serif;
+    --blue1: #62aab4;
+    --blue2: #125b64;
+    --blue3: #08103d;
+}
+
+body {
+    font-weight: 300;
+    font-family: var(--font);
+}
+
+.blue1 {
+    color: var(--blue1);
+}
+
+.blue2 {
+    color: var(--blue1);
+}
+
+.blue3 {
+    color: var(--blue3);
+}
+
+
+/* Header Styles ================ */
+
+.icon {
+width: 2em;
+margin: 0 0.5em ;
+}
+
+/* Banner Styles ================ */
+
+.banner {
+    background: linear-gradient(to top, var(--blue3), var(--blue2));
+    background-attachment: fixed;
+    
+}
+
+.banner_link {
+    transition: 0.2s all;
+}
+
+.banner_link:hover {
+    opacity: 0.6;
+    transform: scale(1.1);
+    transition: 0.2s all;
+}
+
+.h-fixed {
+    height: 90px;
+}
+
+.blue2_bg {
+    background-color: var(--blue2);
+}
+
+/* Section  Styles ================ */
+
+.title {
+    border-bottom: 4px solid var(--blue2);
+    transition: 1s all;
+    scroll-margin: 2em;
+}
+
+.subtitle {
+    color: white;
+    padding: 0.1em 0.5em;
+    border: 1px solid var(--blue1);
+    border-radius: 10px;
+}
+
+.init-hidde {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 1s all;
+}
+
+.hidden-off {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.tec_icon {
+    height:100px;
+    transition: 0.2s all;
+    margin: 1em 0;
+    border-radius: 5px;
+}
+
+.tec_icon:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+    transition: 0.2s all;
+}
+
