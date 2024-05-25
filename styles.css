@@ -15,17 +15,22 @@ body {
     font-family: var(--font);
 }
 
-.blue1 {
+.fade_link {
+    transition: 0.2s all;
+    text-decoration: none;
     color: var(--blue1);
+}
+
+.fade_link:hover {
+    opacity: 0.6;
+    transform: scale(1.1);
+    transition: 0.2s all;
 }
 
 .blue2 {
-    color: var(--blue1);
+    color: var(--blue2);
 }
 
-.blue3 {
-    color: var(--blue3);
-}
 
 
 /* Header Styles ================ */
@@ -41,16 +46,6 @@ margin: 0 0.5em ;
     background: linear-gradient(to top, var(--blue3), var(--blue2));
     background-attachment: fixed;
     
-}
-
-.banner_link {
-    transition: 0.2s all;
-}
-
-.banner_link:hover {
-    opacity: 0.6;
-    transform: scale(1.1);
-    transition: 0.2s all;
 }
 
 .h-fixed {
