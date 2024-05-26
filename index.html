@@ -14,7 +14,7 @@
 
 <body>
     <!--Header-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow">
+    <nav class="navbar navbar-expand-lg bg-transparent shadow">
         <div class="container-fluid">
             <img class="icon" src="./assets/features/icon.png" alt="Logotipo Mateus Cavichion">
             <a class="navbar-brand" href="#">Mateus Cavichion</a>
@@ -28,9 +28,6 @@
                         <a class="nav-link" aria-current="page" href="#about">Sobre mim</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#tec">Tecnologias</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#proj">Projetos</a>
                     </li>
                     <li class="nav-item">
@@ -42,10 +39,10 @@
     </nav>
     <!--Banner Sec-->
     <section
-        class="banner d-flex flex-column-reverse flex-lg-row align-items-center justify-content-center gap-5 p-2 py-3 p-md-5 mb-4 shadow">
+        class="banner d-flex flex-column-reverse flex-xl-row align-items-center justify-content-center gap-5 p-2 py-3 p-md-5 mb-4 shadow">
         <div class="text-white text-center">
             <div class="h-fixed">
-                <h3 class="px-5" id="typewriter-text1"></h3>
+                <h3 id="typewriter-text1" class="py-1 m-0"></h3>
                 <h1 class="blue1" id="typewriter-text2"></h1>
             </div>
             <p class="p-3 text-white-50 mx-2 mx-sm-5">Sou um desenvolvedor <strong>Front-End</strong> decidado,
@@ -73,7 +70,7 @@
     </section>
     <!--Tec Sec-->
     <section class="d-flex flex-column align-items-center mx-3 mx-md-5 text-center init-hidden">
-        <div class="d-flex p-2 align-items-center justify-content-center flex-wrap gap-md-5">
+        <div class="d-flex p-2 align-items-center justify-content-center flex-wrap gap-xl-5">
             <div class="m-2 my-3">
                 <h3 class="subtitle mb-3 blue2_bg">Desenvolvimento Web</h3>
                 <div class="d-flex justify-content-center flex-wrap gap-4">
@@ -105,88 +102,114 @@
         </div>
     </section>
     <!--Projects Sec-->
-    <section class="d-flex flex-column align-items-center mx-3 mx-md-5 my-4 init-hidden text-center">
+    <section class=" flex-column align-items-center mx-3 mx-md-5 my-4 text-center">
 
-        <h2 class="title px-3" id="proj">Meus Projetos</h2>
-        <p class="px-3 px-md-5 py-3 m-0">
-            Ao longo de minha jornada, tive a oportunidade de desenvolver projetos pessoais que tiveram como base todos
-            os aprendizados
-            que absorvi. Cada um deles possui suas particularidades e desafios, que me permitiram aplicar e aprimorar
-            minhas habilidades na área de Front-End.
-        </p>
-        <div class="d-flex gap-4 my-4">
-            <div class="card" style="width: 16rem;">
-                <img src="./assets/projects/logoLAM.png" class="card-img-top shadow-sm" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">LAM Móveis</h5>
-                    <p class="card-text">Landing page desenvolvida para uma empresa real do nicho de móveis planejados
-                    </p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                        <p class="my-1 blue2"><strong>Tecnologias usadas:</strong></p>
-                        <p class="my-0">HTML, CSS, JavaScript e Bootstrap.</p>
-                    </li>
-                    <li class="list-group-item"><a class="fade_link" href="https://github.com/Mateus-Ca13/LAM-website"><i class=" bi bi-github"></i> Repositório
-                            Github</a></li>
-                    <li class="list-group-item"><a class="fade_link" href="https://lammoveissc.com.br/"><i class=" bi bi-link-45deg"></i> Link do
-                            Projeto</a></li>
-                </ul>
-            </div>
-            <div class="card" style="width: 16rem;">
-                <img src="./assets/projects/logojantar.png" class="card-img-top shadow-sm" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Jantar a Dois</h5>
-                    <p class="card-text">Website de receitas para favoritar e compartilhar suas receitas favoritas<br><p class="text-success "> Esse projeto requer mock da API via My JSON Server</p>
-                    </p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                        <p class="my-1 blue2"><strong>Tecnologias usadas:</strong></p>
-                        <p class="my-0">HTML, CSS, JavaScript, Bootstrap e My JSON Server</p>
-                    </li>
-                    <li class="list-group-item"><a class="fade_link" href="https://github.com/Mateus-Ca13/Website-Jantar-a-dois"><i class=" bi bi-github"></i> Repositório
-                            Github</a></li>
-                    
-                </ul>
-            </div>
-            <div class="card" style="width: 16rem;">
-                <img src="./assets/projects/logoReR.png" class="card-img-top shadow-sm" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Raizes & Rosas</h5>
-                    <p class="card-text">E-commerce para venda de produtos de jardinagem e floricultura.
-                    </p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                        <p class="my-1 blue2"><strong>Tecnologias usadas:</strong></p>
-                        <p class="my-0">React.js, Router DOM, ContextAPI e Styled-Components</p>
-                    </li>
-                    <li class="list-group-item"><a class="fade_link" href="https://github.com/Mateus-Ca13/Website-Jantar-a-dois"><i class=" bi bi-github"></i> Repositório
-                            Github</a></li>
-                    <li class="list-group-item"><a class="fade_link" href="https://raizese-rosas.vercel.app/"><i class=" bi bi-link-45deg"></i> Link do
-                            Projeto</a></li>
-                </ul>
-            </div>
-            <div class="card" style="width: 16rem;">
-                <img src="./assets/projects/logoVocabulando.png" class="card-img-top shadow-sm" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Vocabulando</h5>
-                    <p class="card-text">Jogo de palavras dinâmico e divertido para testar sua capacidade de advinhação.
-                    </p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                        <p class="my-1 blue2"><strong>Tecnologias usadas:</strong></p>
-                        <p class="my-0">HTML, CSS e Javascript.</p>
-                    </li>
-                    <li class="list-group-item"><a class="fade_link" href="https://github.com/Mateus-Ca13/Vocabulando-Jogo-de-palavras-"><i class=" bi bi-github"></i> Repositório
-                            Github</a></li>
-                    <li class="list-group-item"><a class="fade_link" href="https://vocabulando-jogo-de-palavras.vercel.app/"><i class=" bi bi-link-45deg"></i> Link do
-                            Projeto</a></li>
-                </ul>
-            </div>
+        <div class="init-hidden">
+            <h2 class="title px-3 d-inline-block text-center" id="proj">Meus Projetos</h2>
+            <p class="px-3 px-md-5 py-3 m-0">
+                Ao longo de minha jornada, tive a oportunidade de desenvolver projetos pessoais que tiveram como base
+                todos
+                os aprendizados
+                que absorvi. Cada um deles possui suas particularidades e desafios, que me permitiram aplicar e
+                aprimorar
+                minhas habilidades na área de Front-End.
+            </p>
+        </div>
+        <div class="d-flex px-0 justify-content-center init-hidden">
+            <div class="scrollcards d-flex flex-sm-column flex-xl-row justify-content-start ">
+                <div class="d-flex gap-2 px-1 py-1 col-sm-12 col-xl-6">
+                    <div class="card" style="width: 16rem;">
+                        <img src="./assets/projects/logoLAM.png" class="card-img-top shadow-sm" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">LAM Móveis</h5>
+                            <p class="card-text">Landing page desenvolvida para uma empresa real do nicho de móveis
+                                planejados
+                            </p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <p class="my-1 blue2"><strong>Tecnologias usadas:</strong></p>
+                                <p class="my-0">HTML, CSS, JavaScript e Bootstrap.</p>
+                            </li>
+                            <li class="list-group-item"><a class="fade_link"
+                                    href="https://github.com/Mateus-Ca13/LAM-website"><i class=" bi bi-github"></i>
+                                    Repositório
+                                    Github</a></li>
+                            <li class="list-group-item"><a class="fade_link" href="https://lammoveissc.com.br/"><i
+                                        class=" bi bi-link-45deg"></i> Link do
+                                    Projeto</a></li>
+                        </ul>
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <img src="./assets/projects/logojantar.png" class="card-img-top shadow-sm" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Jantar a Dois</h5>
+                            <p class="card-text">Website de receitas para favoritar e compartilhar suas receitas
+                                favoritas<br>
+                            <p class="text-success "> Esse projeto requer mock da API via My JSON Server</p>
+                            </p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <p class="my-1 blue2"><strong>Tecnologias usadas:</strong></p>
+                                <p class="my-0">HTML, CSS, JavaScript, Bootstrap e My JSON Server</p>
+                            </li>
+                            <li class="list-group-item"><a class="fade_link"
+                                    href="https://github.com/Mateus-Ca13/Website-Jantar-a-dois"><i
+                                        class=" bi bi-github"></i> Repositório
+                                    Github</a></li>
 
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-flex gap-2 px-1 py-1 col-sm-12 col-xl-6">
+                    <div class="card" style="width: 16rem;">
+                        <img src="./assets/projects/logoReR.png" class="card-img-top shadow-sm" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Raizes & Rosas</h5>
+                            <p class="card-text">E-commerce para venda de produtos de jardinagem e floricultura.
+                            </p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <p class="my-1 blue2"><strong>Tecnologias usadas:</strong></p>
+                                <p class="my-0">React.js, Router DOM, ContextAPI e Styled-Components</p>
+                            </li>
+                            <li class="list-group-item"><a class="fade_link"
+                                    href="https://github.com/Mateus-Ca13/RaizeseRosas"><i class=" bi bi-github"></i>
+                                    Repositório
+                                    Github</a></li>
+                            <li class="list-group-item"><a class="fade_link" href="https://raizese-rosas.vercel.app/"><i
+                                        class=" bi bi-link-45deg"></i> Link do
+                                    Projeto</a></li>
+                        </ul>
+                    </div>
+                    <div class="card" style="width: 16rem;">
+                        <img src="./assets/projects/logoVocabulando.png" class="card-img-top shadow-sm" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Vocabulando</h5>
+                            <p class="card-text">Jogo de palavras dinâmico e divertido para testar sua capacidade de
+                                advinhação.
+                            </p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <p class="my-1 blue2"><strong>Tecnologias usadas:</strong></p>
+                                <p class="my-0">HTML, CSS e Javascript.</p>
+                            </li>
+                            <li class="list-group-item"><a class="fade_link"
+                                    href="https://github.com/Mateus-Ca13/Vocabulando-Jogo-de-palavras-"><i
+                                        class=" bi bi-github"></i> Repositório
+                                    Github</a></li>
+                            <li class="list-group-item"><a class="fade_link"
+                                    href="https://vocabulando-jogo-de-palavras.vercel.app/"><i
+                                        class=" bi bi-link-45deg"></i>
+                                    Link do
+                                    Projeto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

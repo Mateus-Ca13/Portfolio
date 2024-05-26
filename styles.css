@@ -27,6 +27,11 @@ body {
     transition: 0.2s all;
 }
 
+
+.blue1 {
+    color: var(--blue1);
+}
+
 .blue2 {
     color: var(--blue2);
 }
@@ -56,6 +61,11 @@ margin: 0 0.5em ;
     background-color: var(--blue2);
 }
 
+.typing_bar {
+    display: inline-block;
+    border-right: 2px solid white;
+}
+
 /* Section  Styles ================ */
 
 .title {
@@ -71,7 +81,7 @@ margin: 0 0.5em ;
     border-radius: 10px;
 }
 
-.init-hidde {
+.init-hidden {
     opacity: 0;
     transform: translateY(30px);
     transition: 1s all;
@@ -93,5 +103,18 @@ margin: 0 0.5em ;
     transform: scale(1.05);
     opacity: 0.8;
     transition: 0.2s all;
+}
+
+
+@media screen and (max-width: 576px){
+    .scrollcards {
+        overflow: auto;
+        white-space: nowrap;
+    }
+
+}
+
+.scrollcards {
+    white-space: normal;
 }
 
